@@ -1,6 +1,6 @@
 library(usethis)
 use_git_config(user.name = "relund", user.email = "junk@relund.dk")
 use_git()
-
-## create github repository and configure as git remote
+create_github_token()
+gitcreds::gitcreds_set()
 use_github()
